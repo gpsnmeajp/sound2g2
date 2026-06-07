@@ -16,7 +16,7 @@ PC で再生中の音をループバック録音し、FFT でざっくり帯域�
 
 API 側の 1000 バイト制限に収まるよう、デフォルト設定は安全側にしています。
 
-既定の送信速度と縦行数は [sound2g2.py](sound2g2.py) の DEFAULT_SEND_FPS と DEFAULT_SPECTRUM_ROWS で簡単に変えられます。既定は 4FPS、行数は 10 行で、rows は 10 以下に制限しています。
+既定の送信速度と縦行数は [sound2g2.py](sound2g2.py) の DEFAULT_SEND_FPS と DEFAULT_SPECTRUM_ROWS で簡単に変えられます。既定は 16FPS、行数は 10 行で、rows は 10 以下に制限しています。
 
 ## セットアップ
 
